@@ -34,8 +34,8 @@ xkb_symbols "engram2025"
 
 	key <AC01> { [            h,           H ] }; // hH
 	key <AC02> { [            i,           I ] }; // iI
-	key <AC03> { [            e,           E ] }; // eE
-	key <AC04> { [            a,           A ] }; // aA
+	key <AC03> { [            a,           A ] }; // aA
+	key <AC04> { [            e,           E ] }; // eE
 	key <AC05> { [        comma,   semicolon ] }; // ,;
 	key <AC06> { [       period,       colon ] }; // .:
 	key <AC07> { [            t,           T ] }; // tT

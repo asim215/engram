@@ -20,3 +20,6 @@ jJ -> xX
 
 qQ -> zZ
 zZ -> qQ
+
+aA -> eE
+eE -> aA
