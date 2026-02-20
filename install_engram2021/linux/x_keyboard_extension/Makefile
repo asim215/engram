@@ -11,8 +11,8 @@ install: $(SOURCE_SYM) $(TARGET_SYM) $(SOURCE_RULE) $(TARGET_RULE)
 	sed -i '/English (US)/,/<variantList>/!b ; /<variantList>/r $(SOURCE_RULE)' $(TARGET_RULE)
 
 uninstall: $(TARGET_SYM) $(TARGET_RULE)
-	sed -i '/^\/\/ENGRAM BEGIN$$/,/^\/\/ENGRAM END$$/d' $(TARGET_SYM)
-	sed -i '/ENGRAM BEGIN/,/ENGRAM END/d' $(TARGET_RULE)
+	sed -i '/^\/\/ENGRAM2021 BEGIN$$/,/^\/\/ENGRAM2021 END$$/d' $(TARGET_SYM)
+	sed -i '/ENGRAM2021 BEGIN/,/ENGRAM2021 END/d' $(TARGET_RULE)
 
 reinstall:
 	$(MAKE) uninstall
