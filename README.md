@@ -24,3 +24,6 @@ Engram2025
 
 Engram2021
 ![engram2021](assets/engram2021/engram2021_cyanophade.png)
+
+## Additional Resources
+[link to research](https://getreuer.info/posts/keyboards/alt-layouts/index.html)
